@@ -21,7 +21,18 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "unique": true
     },
     "desc": {
       "type": "string",
@@ -29,7 +40,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "coverImg": {
       "type": "media",
@@ -60,7 +72,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "viewCount": {
       "type": "integer",
@@ -78,6 +91,7 @@
           "localized": true
         }
       },
+      "required": true,
       "default": false
     },
     "disable": {
@@ -87,6 +101,7 @@
           "localized": true
         }
       },
+      "required": true,
       "default": false
     },
     "category": {
